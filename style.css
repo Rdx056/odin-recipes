@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./recipes/images/fast-food-wallpaper-calligraphy-writing-260nw-2381018039.webp);
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding:30px;
+    background-color: white;
+}
+li {
+    width: 33.33%;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;;
+    text-align: center;
+    padding: 15px;
+    background-color: #efefef;
+    width: 480px;
+    height: 50px;
+}
+a:link{
+    color: #656565;
+    text-decoration: none;
+}
+a:visited {
+    color: #656565;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+li:hover {
+    background-color: #656565;
+}
+
